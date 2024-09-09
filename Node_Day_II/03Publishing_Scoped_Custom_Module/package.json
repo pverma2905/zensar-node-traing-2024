@@ -1,0 +1,19 @@
+{
+  "name": "@zenaug24/zen_aug_calc_square_cube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "square",
+    "cube",
+    "abhijeet",
+    "zensar",
+    "zensquare",
+    "zencube"
+  ],
+  "author": "Abhijeet D Gole",
+  "license": "ISC",
+  "description": "Simple Mathematical Calculator -Square and Cube"
+}

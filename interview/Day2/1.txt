@@ -1,0 +1,39 @@
+1)differnce b/w npm and npx??
+npx:-
+
+=>NPX is a package executer, and it is used to execute javascript packages directly, without installing them. 
+=>NPX does not install packages, so package pollution on the machine is not a concern.
+=>The most common application of NPX is the create-react-app command. Since we only need to use it once, i.e., while initializing the project, we do not install it. 
+
+npm:-
+
+=>NPM is a package manager used to install, delete, and update Javascript packages on your machine.
+=>NPM installs packages globally, which means that your machine may be polluted by packages that are not required anymore in the long run. 
+=>To use create-react-app using NPM, we would first have to install it globally, and then run it, which makes using NPM in such cases redundant.
+
+2)two file is export one from index.js and another is from package.json entry point main file which one have more priority??
+package.json entry point main file have more priority
+
+3)in node package.json file scripts??
+only start, test we run by using npm start, npm test
+
+else other than build,dev
+using npm run build, npm run dev
+
+4)Step for publishing a custom modules??
+npm login
+npm publish
+ex- npm i pranav_cal
+
+5)scoped package??
+start with @
+ex:- @angualr/
+npm login
+npm publish --access=public
+
+ex-npm i @zen_sept24/pranaver_square_cube
+
+6)verify the package information??
+npm info <package name>
+
+7)node_modules versioning??

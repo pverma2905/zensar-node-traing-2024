@@ -1,0 +1,16 @@
+{
+  "name": "03consuming_published_packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@zenaug24/zen_aug_calc_square_cube": "^1.0.0",
+    "zen_aug_calc_add_mult": "^1.0.0"
+  }
+}

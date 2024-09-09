@@ -1,0 +1,7 @@
+{
+    "cricketers":[
+        {"firstName":"Sachin","lastName":"Tendulkar"},
+        {"firstName":"Rahul","lastName":"Dravid"},
+        {"firstName":"Sourav","lastName":"Ganguly"}
+    ]
+}

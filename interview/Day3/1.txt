@@ -1,0 +1,23 @@
+1)readline?
+In Node.js, readline is a built-in module that provides an interface for reading data from a Readable stream (like stdin) one line at a time. This is useful for handling user input from the terminal (standard input - stdin) and writing output to the terminal (standard output - stdout).
+
+const readline = require('readline');
+
+// Create an interface for input and output
+const rl = readline.createInterface({
+  input: process.stdin,  // Standard input
+  output: process.stdout // Standard output
+});
+
+// Ask a question to the user and handle the response
+rl.question('What is your name? ', (answer) => {
+  console.log(`Hello, ${answer}!`);
+  
+  // Close the readline interface to end the process
+  rl.close();
+});
+
+
+process.stdin: Reads input from the terminal.
+process.stdout: Writes output to the terminal.
+rl.question(): Prompts the user for input and provides the response to a callback.

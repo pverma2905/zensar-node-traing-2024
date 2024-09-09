@@ -1,0 +1,17 @@
+{
+  "name": "02demo_thirdparty_modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"echo Let see how to run this script key! - npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "needle": "^3.3.1"
+  }
+}

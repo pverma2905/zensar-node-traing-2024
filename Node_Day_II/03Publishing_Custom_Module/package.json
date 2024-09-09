@@ -1,0 +1,19 @@
+{
+  "name": "zen_aug_calc_add_mult",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "add",
+    "mult",
+    "abhijeet",
+    "zensar",
+    "zenadd",
+    "zenmult"
+  ],
+  "author": "Abhijeet D Gole",
+  "license": "ISC",
+  "description": "Simple Mathematical Calculator"
+}

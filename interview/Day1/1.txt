@@ -1,0 +1,101 @@
+1)what is node??
+node js is a free, open source, cross platform , javascript runtime Environment let developer create server,web apps ,command line tool
+it allow to run Javascript code outside of a web browser.
+
+2)Run java code in browser??
+applet (plugin)
+
+3)Run .net code  in browser??
+Silverlight (plugin)
+
+4)Run javascipt in browser??
+by default
+
+4)execute javacode??
+jvm
+
+4)execute .dotnet??
+CLR – Common Language Runtime
+
+5)execute c/c++??
+C Runtime
+
+6)execute javascipt??
+node
+
+7)node js orm??
+sequelize, mongoose
+
+8)java orm??
+hibernate
+
+9).net orm??
+entity framework
+
+10)orm??
+it is used to interact relational databases
+
+11)odm??
+it is used to non relational databases
+
+12) type of package manager??
+1)npm-it have both client side and server side dependency
+2)bower-it have client side dependency
+3)yarn-it have both client side and server side dependency
+
+13)Asynchronous and Event-Driven??
+Node.js uses non-blocking, event driven architecture, making it ideal for heavy I/O operations like reading files, or handling network requests.
+
+14)Single Threaded ??
+Node.js can handle many connections simultaneously thanks to its event loop and asynchronous nature.
+
+15)Cross Platform ??
+Node.js runs on various platforms, including windows, mac, linux, unix etc.
+
+16)uses of node js??
+Use Cases
+•	Web Servers
+•	Real Time Applications – chat app, online game application
+•	Command Line Tools – create command line tools and scripts.
+•	Stock Trader’s dashboard
+•	Data Streaming
+•	System Monitoring Dashboard
+
+17)important commmands??
+#####################To get the version#####################
+=>node -v / node --version
+=>npm -v / npm –version
+
+##################### List all the packages installed locally ##############################
+npm ls
+
+############################# List all the packages installed globally (wherever node is being installed)###############
+npm ls -g
+
+############################# To install any of the package ############################
+npm i<package-name> - this will install that package locally.
+npm i<package-name> -g – this will install that package globally.
+npm I / npm install – will get the information from package.json about runtime dependencies and development dependencies and install them.
+npm un / uninstall <package-name>
+
+npm outdated – will check for the outdated versions of packages.
+npm update – will update the package to the latest version.
+
+18)package.lock.json??
+it track  which dependency is installed and uninstall 
+it track the sub dependency also there
+
+The package-lock.json file is an automatically generated file in Node.js projects that provides a detailed deterministic record of the dependency tree.
+
+Purpose of this file
+•	Dependency locking – It locks down the specific versions of every installed package, ensuring that subsequent install generates identical dependency trees, regardless of intermediate updates.
+•	Version Consistency – Ensures that all the developers working on the project as well as CI/CD systems use the exact same version of dependencies, avoiding “it works on my machine” issue.
+•	Improved Installation Speed, - Optimizes dependency installation by storing a flat node_modules structure.
+
+19)3type of node_modules??
+Custom Modules – You create it and acquire it using require () function to use it.
+Core Modules – Available along with Node installation, you acquire it using require () function to use it.
+Third-Party Modules – Needs toexplicitly install and then you acquire it using require () function to use it.
+
+
+

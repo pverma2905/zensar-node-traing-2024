@@ -1,0 +1,2 @@
+This is some file1.txt.
+This file can be read by using file system as a core module.
